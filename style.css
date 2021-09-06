@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,600;1,300&display=swap');
+body {
+    background-color: goldenrod;
+    
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article {
+    width: 30%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,108,1) 35%, rgba(0,212,255,1) 100%);
+    border-radius: 100%;
+    border-style: solid;
+    border-color: gray;
+    
+}
+
+h1 {
+    font-family: 'Alumni Sans', sans-serif;
+    font-size: xx-large;
+    font-variant: small-caps;
+}
+
+img {
+    width: 100%;
+    max-width: 150px;
+    min-width: 65px;
+    max-height: 150px;
+    
+    }
+
+.input {
+    width: 75%;
+    max-width: 600px;
+}    
+
+.input p{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.input p input {
+    font-family: 'Alumni Sans', sans-serif;
+    font-size: large;
+    border-radius: 20px;
+}
+
+    
+.input p input::placeholder {
+color: rgb(20, 87, 141);
+}
+
+button {
+    background-color: rgba(5, 4, 7, 0.164);
+    border-radius: 20px;
+    border-color: lightgray;
+    font-family: 'Alumni Sans', sans-serif;
+    
+}
